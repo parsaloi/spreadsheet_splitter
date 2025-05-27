@@ -81,7 +81,7 @@ The `spreadsheet_splitter` tool provides two modes:
    ```bash
    uv run spreadsheet-splitter /path/to/very_large_file.xlsx --large --output-dir split_files --rows-per-iteration 500 --max-iterations 5 --columns 22
    ```
-   - Processes `iNVKSA.xlsx` in chunks of 500 rows, up to 5 iterations (2500 rows total).
+   - Processes `very_large_file.xlsx` in chunks of 500 rows, up to 5 iterations (2500 rows total).
    - Reads only the first 22 columns.
    - Outputs files like `split_files/very_large_file_part001.xlsx`, `split_files/very_large_file_part002.xlsx`, etc.
    - Logs progress to `split_log.json`.
