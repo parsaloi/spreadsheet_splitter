@@ -1,9 +1,24 @@
 [project]
 name = "spreadsheet-splitter"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python command-line tool to split large Excel (.xls or .xlsx) files into smaller parts with low memory usage."
 readme = "README.md"
 requires-python = ">=3.13"
+license = {text = "MIT"}
+authors = [
+    {name = "Parsa Loi", email = "parsa@example.com"}
+]
+keywords = ["excel", "spreadsheet", "split", "xlsx", "xls", "pandas", "large-files"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business :: Office Suites",
+    "Topic :: Utilities"
+]
 dependencies = [
     "openpyxl>=3.1.5",
     "pandas>=2.2.3",
@@ -15,6 +30,12 @@ dependencies = [
 
 [project.scripts]
 spreadsheet-splitter = "spreadsheet_splitter:main"
+
+[project.urls]
+Homepage = "https://github.com/parsaloi/spreadsheet_splitter"
+Documentation = "https://github.com/parsaloi/spreadsheet_splitter/tree/main/docs"
+Repository = "https://github.com/parsaloi/spreadsheet_splitter"
+Issues = "https://github.com/parsaloi/spreadsheet_splitter/issues"
 
 [build-system]
 requires = ["hatchling"]

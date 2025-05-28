@@ -1,17 +1,17 @@
 {
   "input_path": "/home/parsaizme/Documents/arch-parsa/stuff/job/alm.dev/alm.overview/iNVKSA.xlsx",
   "output_dir": "split_files",
-  "rows_per_iteration": 500,
+  "rows_per_iteration": 5,
   "processed_ranges": [
     {
       "file": "split_files/iNVKSA_part001.xlsx",
       "start_row": 1,
-      "end_row": 500,
+      "end_row": 5,
       "iteration": 1
     }
   ],
-  "last_row_processed": 499,
-  "timestamp": "2025-05-27T12:20:51.277192",
+  "last_row_processed": 4,
+  "timestamp": "2025-05-27T16:33:15.586172",
   "columns": 22,
   "file_profile": {
     "total_rows": 1,
@@ -44,8 +44,8 @@
   "memory_usage": [
     {
       "iteration": 1,
-      "memory_before_mb": 245.1953125,
-      "memory_after_mb": 245.265625
+      "memory_before_mb": 256.19140625,
+      "memory_after_mb": 260.640625
     }
   ]
 }
